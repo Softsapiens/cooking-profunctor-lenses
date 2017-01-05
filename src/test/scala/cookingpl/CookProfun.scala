@@ -1,4 +1,4 @@
-package algelab
+package cookingpl
 
 import org.scalatest.{FlatSpec, Matchers}
 
@@ -228,7 +228,7 @@ object optics {
 
 }
 
-class FunProfun extends FlatSpec with Matchers {
+class CookProfun extends FlatSpec with Matchers {
 
   "newoptics1 -->  Testing Lens composition and/with Getter composition" should "work" in {
     import optics._
