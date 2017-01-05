@@ -1,4 +1,4 @@
-name := "algelab"
+name := "cooking-profunctor-lenses"
 
 scalaVersion in ThisBuild := "2.12.1"
 
@@ -20,7 +20,6 @@ libraryDependencies ++= Seq(
   , "io.monix" % "monix-cats_2.12" % "2.1.1"
   , "io.monix" %% "monix-scalaz-72" % "2.1.1"
   , "com.github.mpilquist" %% "simulacrum" % "0.10.0"
-  , "com.github.julien-truffaut" %%  "monocle-core" % "1.4.0-M2"
 )
 
 scalacOptions ++= Seq(
